@@ -121,12 +121,12 @@ footer a:hover{
 
 @media screen and (max-width:1200px){
     .poke{
-        height: 80px;
+        height: 90px;
         width: 20%
     
     }
     .poke img{
-        height:30px;
+        height:70px;
         margin: auto;
         margin-top: 10%;
     }
@@ -145,20 +145,17 @@ footer a:hover{
 
 @media  screen and (max-width: 600px){
     .poke{
-        height: 70px;
-        width: 20%
+        height: 60px;
+        width: 25%
     
     }
     .poke img{
-        height:30px;
+        height:50px;
         margin: auto;
         margin-top: 10%;
     }
 
-    #fim{
-        margin: 0 0 0.9% .9%;
-        display: inline-block;
-    }
+    
 
     .poke:active{
         border-color: var(--border-color);
