@@ -121,12 +121,12 @@ footer a:hover{
 
 @media screen and (max-width:1080px){
     .poke{
-        height: 100px;
+        height: 90px;
         width: 20%
     
     }
     .poke img{
-        height: 70px;
+        height:70px;
         margin: auto;
         margin-top: 10%;
     }
