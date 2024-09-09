@@ -117,3 +117,23 @@ footer a:hover{
    font-size: 120%;
   
 }
+
+
+@media screen and (max-width:920px){
+    .poke{
+        height: 100px;
+        width: 20%
+    
+    }
+    .poke img{
+        height: 70px;
+    }
+
+    #fim{
+        margin: 0 0 0.9% .9%;
+        display: inline-block;
+    }
+}
+
+
+
