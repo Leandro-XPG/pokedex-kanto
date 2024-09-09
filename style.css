@@ -133,6 +133,12 @@ footer a:hover{
         margin: 0 0 0.9% .9%;
         display: inline-block;
     }
+
+    .poke:active{
+        border-color: var(--border-color);
+        transform:scale(1.1);
+        border-radius: 0px;
+    }
 }
 
 
