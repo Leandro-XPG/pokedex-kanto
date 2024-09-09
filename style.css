@@ -150,12 +150,11 @@ footer a:hover{
     
     }
     .poke img{
-        height:50px;
+        height:45px;
         margin: auto;
         margin-top: 10%;
     }
 
-    
 
     .poke:active{
         border-color: var(--border-color);
