@@ -119,14 +119,14 @@ footer a:hover{
 }
 
 
-@media screen and (max-width:1080px){
+@media screen and (max-width:1200px){
     .poke{
-        height: 90px;
+        height: 80px;
         width: 20%
     
     }
     .poke img{
-        height:50px;
+        height:30px;
         margin: auto;
         margin-top: 10%;
     }
@@ -142,6 +142,32 @@ footer a:hover{
         border-radius: 0px;
     }
 }
+
+@media  screen and (max-width: 600px){
+    .poke{
+        height: 70px;
+        width: 20%
+    
+    }
+    .poke img{
+        height:30px;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    #fim{
+        margin: 0 0 0.9% .9%;
+        display: inline-block;
+    }
+
+    .poke:active{
+        border-color: var(--border-color);
+        transform:scale(1.1);
+        border-radius: 0px;
+    }
+} 
+    
+
 
 
 
