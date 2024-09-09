@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.fundo{
+    background-image:linear-gradient(45deg, black,#283C33,#387044);
+    background-size: 500% 100%;
+    animation: fundo 3s infinite alternate;
+}
+
+    
+
+@keyframes fundo{
+    0% {
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+header{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.144);
+    margin: 1.5%;
+    padding: 1%;
+}
+
+header h1{
+    color:white;
+    font-size: 300%;
+}
+
+header h1 span{
+    color:#00EF39;
+}
+
+.menu a{
+    color:white;
+    text-decoration: none;
+}
+
+.menu{
+    display: inline-block;
+    transition: .3s;
+}
+
+ .menu:hover{
+    transform: scale(1.2);
+ }
+
+ .menu a:hover{
+    color:lightgreen;
+ }
+
+ .card{
+    padding: 0 0 0 12%;
+ }
+
+ .poke{
+    box-shadow: 0 0 2px black;
+    display: inline-block;
+    margin: 2% 1% 1% 1%;
+    width: 15%;
+    height: 200px;
+    border-radius:10%;
+    transition: .3s;
+    border: 2px solid var(--border-color, white);
+}
+
+
+
+
+.poke img{
+    display: block;
+    margin:auto;
+    margin-top: 25%;
+    height: 100px;
+    background-color: transparent;
+}
+
+
+
+.poke:hover{
+    border-color: var(--border-color);
+    transform:scale(1.1);
+    border-radius: 0px;
+}
+
+#fim{
+    display: block;
+   margin: 2% 0 0 35.5%
+}
+
+footer{
+    text-align: center;
+    margin: 2%;
+    border: 2px solid transparent;
+    padding:2%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.486);
+    background-color:rgba(255, 255, 255, 0.007);
+    
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+   
+}
+
+footer a:hover{
+   text-decoration: underline;
+   font-size: 120%;
+  
+}
